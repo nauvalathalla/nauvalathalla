@@ -46,7 +46,6 @@
 
 ---
 
-<!-- Pacman contribution graph (ONLY appears if file exists in your repo!) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nauvalathalla/nauvalathalla/output/pacman-contribution-graph-dark.svg">
@@ -54,6 +53,7 @@
     <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/nauvalathalla/nauvalathalla/output/pacman-contribution-graph.svg">
   </picture>
 </p>
+
 
 ---
 
