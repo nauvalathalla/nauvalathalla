@@ -1,0 +1,22 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Setiap hari jam 7 pagi WIB
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Generate pacman contribution graph
+        uses: maurodesouza/github-contribution-graph-action@main
+        with:
+          user: nauvalathalla
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Generate Pacman contribution graph'
+          add: 'output/*.svg'
