@@ -39,21 +39,5 @@
 
 ---
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=nauvalathalla&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
-  <img src="https://github-profile-trophy.vercel.app/?username=nauvalathalla&theme=dracula&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
-</div>
 
----
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nauvalathalla/nauvalathalla/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nauvalathalla/nauvalathalla/output/pacman-contribution-graph.svg">
-    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/nauvalathalla/nauvalathalla/output/pacman-contribution-graph.svg">
-  </picture>
-</p>
-
-
----
 
